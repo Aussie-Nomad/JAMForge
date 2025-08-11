@@ -4,18 +4,18 @@
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:JAMForge}",
+            "cwd": "${workspaceFolder:JAMForge-main}",
             "name": "Debug JAMForge",
-            "program": "${workspaceFolder:JAMForge}/.build/debug/JAMForge",
+            "program": "${workspaceFolder:JAMForge-main}/.build/debug/JAMForge",
             "preLaunchTask": "swift: Build Debug JAMForge"
         },
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:JAMForge}",
+            "cwd": "${workspaceFolder:JAMForge-main}",
             "name": "Release JAMForge",
-            "program": "${workspaceFolder:JAMForge}/.build/release/JAMForge",
+            "program": "${workspaceFolder:JAMForge-main}/.build/release/JAMForge",
             "preLaunchTask": "swift: Build Release JAMForge"
         }
     ]
