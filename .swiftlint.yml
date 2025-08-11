@@ -1,0 +1,71 @@
+# SwiftLint Configuration for JAMForge
+
+disabled_rules:
+  - trailing_whitespace
+  - todo
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - first_where
+  - operator_usage_whitespace
+  - redundant_nil_coalescing
+  - sorted_imports
+  - vertical_parameter_alignment_on_call
+
+included:
+  - JAMForge
+  - Tests
+
+excluded:
+  - Carthage
+  - Pods
+  - .build
+  - DerivedData
+  - Scripts
+
+line_length:
+  warning: 120
+  error: 140
+
+type_body_length:
+  warning: 300
+  error: 400
+
+file_length:
+  warning: 500
+  error: 1000
+
+function_body_length:
+  warning: 50
+  error: 80
+
+cyclomatic_complexity:
+  warning: 10
+  error: 20
+
+identifier_name:
+  min_length:
+    warning: 1
+    error: 1
+  max_length:
+    warning: 40
+    error: 50
+  excluded:
+    - id
+    - url
+    - uri
+    - api
+    - jwt
+    - xml
+    - ios
+    - app
+    - os
+
+# Custom rules for JAMForge
+custom_rules:
+  jamf_naming:
+    name: "JAMF Naming Convention"
+    regex: 'class|struct|enum.*JAMF.*'
+    message: "Use 'JAMF' (all caps) for JAMF-related types"
+    severity: warning

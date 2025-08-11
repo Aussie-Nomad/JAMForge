@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+    
+    - name: Build for Release
+      run: |
+        xcodebuild -project JAMForgeProfileCreator/JAMForgeProfileCreator.xcodeproj \
+                   -scheme JAMForgeProfileCreator \
+                   -configuration Release \
+                   -destination 'platform=macOS' \
+                   build
+    
+    - name: Archive
+      run: |
+        # Create a ZIP archive of the app
+        cd JAMForgeProfileCreator/build/Release
+        zip -r JAMForgeProfileCreator.zip JAMForgeProfileCreator.app
+    
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: JAMForgeProfileCreator/build/Release/JAMForgeProfileCreator.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
