@@ -1,0 +1,1923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015CC98B6857E5D0B46AEFF5 /* DeploymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2864D7D6C7D947CBC954EF8 /* DeploymentView.swift */; };
+		039FBFAFAF4A2EC86DBFC8CA /* JAMFModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7D2DAE12D5A4D11DA7E8B /* JAMFModels.swift */; };
+		06F49A57D4D05397F9939AED /* JAMForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6036C6418FD9BD08ACD079A /* JAMForgeApp.swift */; };
+		0A444D23540C500CA4568FDF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE279AF2767AF1920C51AD6F /* AppState.swift */; };
+		0AB1F0C0A86752F1900CB207 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = DA35F143A133582FEAE25BC3 /* XMLCoder */; };
+		14C61463E243F45DB8D7D4E0 /* ProfileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9510C098FAEF5553DB6E888 /* ProfileTemplate.swift */; };
+		16D2362C20597CB0966A19E8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE279AF2767AF1920C51AD6F /* AppState.swift */; };
+		1DBA90917FB39AF2E50C27C0 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 56129299BAA74BD40804E8ED /* KeychainAccess */; };
+		21F2FDEE827E9B00F78CAD37 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDCD12764B790EF22960BE4 /* UtilityViews.swift */; };
+		2BC6EFC3EF649949D90E2EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D98B45C22240F63748121 /* AppDelegate.swift */; };
+		2EE9BF6DA6BF79D85D26E9D4 /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC16ECA491E108814A4387 /* SecurityManager.swift */; };
+		2F4B2D236638066DD4358AA0 /* swift-log in Frameworks */ = {isa = PBXBuildFile; productRef = 5A8C27EB94472F6F65F9351B /* swift-log */; };
+		2FD4C5A02D4BD8E6A0C1A18E /* PrivacyPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C8EBF107E18FC25B06CEB /* PrivacyPermission.swift */; };
+		351432E7E46B1FF65C131B2B /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEEDEBE95E80CFFE91C746A /* KeychainAccess */; };
+		37FF98E01CA77FA54CFCE319 /* JAMForgeKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; };
+		3ABD44051446048CB8EABF2E /* JAMForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6036C6418FD9BD08ACD079A /* JAMForgeApp.swift */; };
+		3BE544D514866652F9B32DA0 /* JAMForgeKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; };
+		3C0755A5D9ED123EDE13718A /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 42A57DBFC24C432186674F71 /* XMLCoder */; };
+		3EE3704BECBDE2765BC1FF6C /* JAMForgeProfileCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88394C9EAEEC0E881E8CAF /* JAMForgeProfileCreatorTests.swift */; };
+		44F0DC60E3F2BA0964F4B084 /* JAMForgeKit_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47548AE7C5654E385F9B0096 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BDDE73173BFFEC33BD534 /* AppState.swift */; };
+		49D065D8675D8CCFF05B1903 /* ProfileBuilderFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826396F1FB262BB07E2D199D /* ProfileBuilderFeature.swift */; };
+		4E26AE29F12019A845724C98 /* JAMForgeKit_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58026AA3BAADC156C4D77362 /* JAMForgeKit_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E1E4C33623BB271FD7E4FB1 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9D6854A218B8A67EEB63CD /* Payload.swift */; };
+		5F986585F9E7A0ADBAB7389E /* ConfigurationProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA08C79B0726D70DC848B0 /* ConfigurationProfile.swift */; };
+		60B180FED5E0785FF4EEA044 /* swift-log in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA0937C83175A4F4F933E4E /* swift-log */; };
+		636524338D0D612C365F7F4B /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDCD12764B790EF22960BE4 /* UtilityViews.swift */; };
+		686EE7CF65035AE5DCF2DE3E /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218F8E711B420C331510CA6 /* ProfileService.swift */; };
+		72F5B97EFF4C0749B42FB74F /* JAMFAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB466D7FFDD3083F637B28 /* JAMFAPIService.swift */; };
+		7E88FB13519D6F89F4DC0E2F /* DeploymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2864D7D6C7D947CBC954EF8 /* DeploymentView.swift */; };
+		82BEAD15171EC26A641E4CAE /* swift-crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 0615076A693ABA0ADF98F4BC /* swift-crypto */; };
+		8379A7799FCAF0C1AE01ED7C /* JAMForgeKit_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		877F62AEDB66A29D4873E410 /* AppAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF73513D7F6A420E618536 /* AppAnalyzer.swift */; };
+		8D4310604C8F3F6F603B6C1C /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADBBC35E5804478FC280E4 /* ProfileDetailView.swift */; };
+		95E2FB6BA24A7E457B0795BE /* swift-crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 1C2D69CB99CE76489A37C0D6 /* swift-crypto */; };
+		95FE9AC38CAB595BE409DDC1 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 4BE9910BA0AF0C461A7D0653 /* KeychainAccess */; };
+		981F28F76B10F4D91CE1EB52 /* JAMFAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FB466D7FFDD3083F637B28 /* JAMFAPIService.swift */; };
+		9E2BE08AFEBA53808A790185 /* JAMFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF55BB4051A5F16CE1DF57CD /* JAMFService.swift */; };
+		9E4D53CF3A37ACBA333D913A /* PrivacyPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C8EBF107E18FC25B06CEB /* PrivacyPermission.swift */; };
+		9EF200DE5941774F41D3E9B2 /* JAMFConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D31096F211CA509ECF362 /* JAMFConnectionView.swift */; };
+		A01596AE8B21039269EA3EF7 /* JAMForgeKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; };
+		A1627B1D83198B055F706E08 /* swift-log in Frameworks */ = {isa = PBXBuildFile; productRef = E97369FD19E9333FDB5660D5 /* swift-log */; };
+		A707F017F0997211BE879D1D /* JAMFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF55BB4051A5F16CE1DF57CD /* JAMFService.swift */; };
+		A8A52EC769B479AD4868CB8D /* AppAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF73513D7F6A420E618536 /* AppAnalyzer.swift */; };
+		ACC88856376D47C6993A8189 /* AppDropZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D605EDD72DE231E6DF39E72 /* AppDropZone.swift */; };
+		AF319103FCF12DB47444C870 /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADBBC35E5804478FC280E4 /* ProfileDetailView.swift */; };
+		B461D5A8172AF94666629137 /* ConfigurationProfile+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9834AA07044FB6EFFD442E0 /* ConfigurationProfile+XML.swift */; };
+		B499391DE426A52CDDAB33B1 /* ProfileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9510C098FAEF5553DB6E888 /* ProfileTemplate.swift */; };
+		B776BEB31AFBEC5936F94F82 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218F8E711B420C331510CA6 /* ProfileService.swift */; };
+		BD27FEE573657BF3F0077957 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9D6854A218B8A67EEB63CD /* Payload.swift */; };
+		BDF3057DBA83245AE9C980D0 /* AppDropZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D605EDD72DE231E6DF39E72 /* AppDropZone.swift */; };
+		C0B7578B4B0FA824971DB24A /* JAMForgeKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; };
+		CCC4D52B0BC041A689A163C7 /* JAMFModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7D2DAE12D5A4D11DA7E8B /* JAMFModels.swift */; };
+		D0A6001283B386AD7B19092A /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = D4494B881A337CCC5569F205 /* XMLCoder */; };
+		D18C3B8104F4E13A8777C1D8 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 890EFCE65A1979841E3D8B4B /* XMLCoder */; };
+		D43DDBA16893EC5113590E75 /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC16ECA491E108814A4387 /* SecurityManager.swift */; };
+		DA64715109905BF1E126CAFB /* JAMForgeProfileCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88394C9EAEEC0E881E8CAF /* JAMForgeProfileCreatorTests.swift */; };
+		E12095E3478D4B6C38BCD835 /* JAMForgeKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */; };
+		E18AEB7960EC89F687E43459 /* ConfigurationProfile+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9834AA07044FB6EFFD442E0 /* ConfigurationProfile+XML.swift */; };
+		E1E9CB7A14FB3DD333A78319 /* AppAnalysisCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162889671585B1AEA3BAD205 /* AppAnalysisCard.swift */; };
+		E2796D9060C30F2B58631291 /* swift-crypto in Frameworks */ = {isa = PBXBuildFile; productRef = B6A955AE6CC2C4E2968D5D04 /* swift-crypto */; };
+		E4E14265BD24F0B52979F9F8 /* swift-crypto in Frameworks */ = {isa = PBXBuildFile; productRef = F1C365BB796763606C375AAE /* swift-crypto */; };
+		E877495407A6F08D750597BA /* swift-log in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC35A710370DDCF1147A3A7 /* swift-log */; };
+		EBF0A22C31AAFEC3CF442E69 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 3AC59B869069922B1566C7F6 /* KeychainAccess */; };
+		ECE383BF3AD9D64DA4AA6D1B /* AppAnalysisCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162889671585B1AEA3BAD205 /* AppAnalysisCard.swift */; };
+		EF687836EB71E98D944A6158 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977BDDE73173BFFEC33BD534 /* AppState.swift */; };
+		F032A2FAA9182F452E380BAE /* ProfileBuilderFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826396F1FB262BB07E2D199D /* ProfileBuilderFeature.swift */; };
+		F05ED02266DD0DC8E650A0E2 /* JAMFConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D31096F211CA509ECF362 /* JAMFConnectionView.swift */; };
+		F17CD42FBA99E982788CCF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D98B45C22240F63748121 /* AppDelegate.swift */; };
+		F438062FB695AEBD97FE8BBD /* JAMForgeKit_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5E384495D166EFD9CBCD7C9 /* JAMForgeKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; };
+		F9B1D2C2A76A53BA2E74F3CB /* JAMForgeKit_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF26754BDE7EDD6ACF5B6E50 /* ConfigurationProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA08C79B0726D70DC848B0 /* ConfigurationProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8709236893A1C581F3D8C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FFDD6074F13AC21D978F3D;
+			remoteInfo = JAMForge_iOS;
+		};
+		2AF76E3F5D3B73E9BD6F0D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB1CF07B76CD1682468569E;
+			remoteInfo = JAMForgeKit_iOS;
+		};
+		32947C7BD059C152B497311A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB1CF07B76CD1682468569E;
+			remoteInfo = JAMForgeKit_iOS;
+		};
+		49E45EEF8AC4468E98A9BDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202D19CBA22AE8052CE8F541;
+			remoteInfo = JAMForgeKit_macOS;
+		};
+		7D6E99F56BA0413DF3C31729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB1CF07B76CD1682468569E;
+			remoteInfo = JAMForgeKit_iOS;
+		};
+		7EB123BEE0FC97C183FC72A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E366B126905E1C776BB7805;
+			remoteInfo = JAMForge_macOS;
+		};
+		84EEC150FFF7BAED1C41DC40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202D19CBA22AE8052CE8F541;
+			remoteInfo = JAMForgeKit_macOS;
+		};
+		D381058B1183BD6A539B84A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202D19CBA22AE8052CE8F541;
+			remoteInfo = JAMForgeKit_macOS;
+		};
+		E8BC147C899D118B5FA31D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E366B126905E1C776BB7805;
+			remoteInfo = JAMForge_macOS;
+		};
+		EFB6D26073E80CACC29EBB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7DB764EBC4C04A2455730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FFDD6074F13AC21D978F3D;
+			remoteInfo = JAMForge_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		029959CA01D6D3C8DCAD2910 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E26AE29F12019A845724C98 /* JAMForgeKit_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E5A30C19AADE75D979A9DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44F0DC60E3F2BA0964F4B084 /* JAMForgeKit_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2C5B7C484A53121BB8AF1D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58026AA3BAADC156C4D77362 /* JAMForgeKit_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AAE2C8D0AA1D84DD00842 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F438062FB695AEBD97FE8BBD /* JAMForgeKit_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08DB8570F4D55A634292553 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9B1D2C2A76A53BA2E74F3CB /* JAMForgeKit_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3F3E8E1BE2EE6E3F936DF5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8379A7799FCAF0C1AE01ED7C /* JAMForgeKit_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMForgeKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0708927063D5EAE010AC531D /* JAMForgeUITests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMForgeUITests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D605EDD72DE231E6DF39E72 /* AppDropZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDropZone.swift; sourceTree = "<group>"; };
+		0D9D6854A218B8A67EEB63CD /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		0FB7D2DAE12D5A4D11DA7E8B /* JAMFModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMFModels.swift; sourceTree = "<group>"; };
+		162889671585B1AEA3BAD205 /* AppAnalysisCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAnalysisCard.swift; sourceTree = "<group>"; };
+		1F21D0573613CEA79930E826 /* JAMForgeUITests_iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JAMForgeUITests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7D98B45C22240F63748121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2218F8E711B420C331510CA6 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		243C8EBF107E18FC25B06CEB /* PrivacyPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPermission.swift; sourceTree = "<group>"; };
+		24ADBBC35E5804478FC280E4 /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
+		57FB466D7FFDD3083F637B28 /* JAMFAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMFAPIService.swift; sourceTree = "<group>"; };
+		5AEF73513D7F6A420E618536 /* AppAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAnalyzer.swift; sourceTree = "<group>"; };
+		68CC16ECA491E108814A4387 /* SecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		81D4CA9849214CB57D3DFED9 /* JAMForgeTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMForgeTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		826396F1FB262BB07E2D199D /* ProfileBuilderFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBuilderFeature.swift; sourceTree = "<group>"; };
+		8539C8A358F4230B295625AC /* JAMForgeTests_iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JAMForgeTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED5975018C6AC2B9771E612 /* JAMForge_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAMForge_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2D31096F211CA509ECF362 /* JAMFConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMFConnectionView.swift; sourceTree = "<group>"; };
+		977BDDE73173BFFEC33BD534 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A6036C6418FD9BD08ACD079A /* JAMForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMForgeApp.swift; sourceTree = "<group>"; };
+		AB88394C9EAEEC0E881E8CAF /* JAMForgeProfileCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMForgeProfileCreatorTests.swift; sourceTree = "<group>"; };
+		ABAEC6C998169C61EDD42962 /* JAMForgeKitTests_iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JAMForgeKitTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDCD12764B790EF22960BE4 /* UtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
+		B2864D7D6C7D947CBC954EF8 /* DeploymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeploymentView.swift; sourceTree = "<group>"; };
+		BABA08C79B0726D70DC848B0 /* ConfigurationProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationProfile.swift; sourceTree = "<group>"; };
+		C9510C098FAEF5553DB6E888 /* ProfileTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTemplate.swift; sourceTree = "<group>"; };
+		CF55BB4051A5F16CE1DF57CD /* JAMFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMFService.swift; sourceTree = "<group>"; };
+		E7744278AC8A45E1FCCD092E /* JAMForgeKitTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMForgeKitTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9834AA07044FB6EFFD442E0 /* ConfigurationProfile+XML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigurationProfile+XML.swift"; sourceTree = "<group>"; };
+		F2022DC4421897D80F17B257 /* JAMForge_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JAMForge_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMForgeKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE279AF2767AF1920C51AD6F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E10CC20F6A6C207E2AFD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE544D514866652F9B32DA0 /* JAMForgeKit_macOS.framework in Frameworks */,
+				D0A6001283B386AD7B19092A /* XMLCoder in Frameworks */,
+				351432E7E46B1FF65C131B2B /* KeychainAccess in Frameworks */,
+				E4E14265BD24F0B52979F9F8 /* swift-crypto in Frameworks */,
+				60B180FED5E0785FF4EEA044 /* swift-log in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8A8EC271D7D4BC22E084D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0755A5D9ED123EDE13718A /* XMLCoder in Frameworks */,
+				1DBA90917FB39AF2E50C27C0 /* KeychainAccess in Frameworks */,
+				95E2FB6BA24A7E457B0795BE /* swift-crypto in Frameworks */,
+				2F4B2D236638066DD4358AA0 /* swift-log in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F17FB8E718749883C9D99D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12095E3478D4B6C38BCD835 /* JAMForgeKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EBD1CF837564BE710D796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01596AE8B21039269EA3EF7 /* JAMForgeKit_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275179D775E928ECB20898D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B7578B4B0FA824971DB24A /* JAMForgeKit_iOS.framework in Frameworks */,
+				0AB1F0C0A86752F1900CB207 /* XMLCoder in Frameworks */,
+				95FE9AC38CAB595BE409DDC1 /* KeychainAccess in Frameworks */,
+				82BEAD15171EC26A641E4CAE /* swift-crypto in Frameworks */,
+				A1627B1D83198B055F706E08 /* swift-log in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577247EAF93C222C3004BD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18C3B8104F4E13A8777C1D8 /* XMLCoder in Frameworks */,
+				EBF0A22C31AAFEC3CF442E69 /* KeychainAccess in Frameworks */,
+				E2796D9060C30F2B58631291 /* swift-crypto in Frameworks */,
+				E877495407A6F08D750597BA /* swift-log in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E34BFFB5A9DF54AD3B5A4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FF98E01CA77FA54CFCE319 /* JAMForgeKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B043617961E8AE9DB4B81F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E384495D166EFD9CBCD7C9 /* JAMForgeKit_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0122CB94DB4469C99D956BDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B5BDF43DC0AF58151AA942B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0D7442A22D8CD8C85EE7003B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F7B7C8075E680228266B338B /* Components */,
+				74D5DF8DA91CAFAC7C3EAF13 /* Resources */,
+				5AB0FF92013B1F18D49EF9F9 /* Styles */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1BD0E3166A1D6D2247BD8175 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		211B597C88D77F0390D86790 /* JAMForgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB88394C9EAEEC0E881E8CAF /* JAMForgeProfileCreatorTests.swift */,
+			);
+			path = JAMForgeTests;
+			sourceTree = "<group>";
+		};
+		2917CF878135AD8C37DB3D1E /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				C9510C098FAEF5553DB6E888 /* ProfileTemplate.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		2E0F147523A3D0A6CD35ABE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF73513D7F6A420E618536 /* AppAnalyzer.swift */,
+				57FB466D7FFDD3083F637B28 /* JAMFAPIService.swift */,
+				2218F8E711B420C331510CA6 /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B20FD29D416B4642D2EEEA2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7E0E8725A6D7AD06D6526125 /* JAMF */,
+				82A4CEC20F65FAE2F29F4D14 /* Security */,
+				0B5BDF43DC0AF58151AA942B /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4A17B68CB0C121AF81CF5A1A /* DeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DeviceManager;
+			sourceTree = "<group>";
+		};
+		4BFA9EC1FB44CCDCF765557F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC552484D847F997F6BC7825 /* JAMForgeKitTests */,
+				211B597C88D77F0390D86790 /* JAMForgeTests */,
+				62C5BE97F93918588F2D17C5 /* JAMForgeUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5957A1EDBAA9E7A4CC19AB0D = {
+			isa = PBXGroup;
+			children = (
+				AD2D94CC13952E925AC1A43B /* JAMForge */,
+				AFCDAD57D19D1035A3AEA5C9 /* JAMForgeKit */,
+				4BFA9EC1FB44CCDCF765557F /* Tests */,
+				8C2E22BCEA5A69EB893FB7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A86946D57C42DFE0EF88514 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				977BDDE73173BFFEC33BD534 /* AppState.swift */,
+				BABA08C79B0726D70DC848B0 /* ConfigurationProfile.swift */,
+				E9834AA07044FB6EFFD442E0 /* ConfigurationProfile+XML.swift */,
+				243C8EBF107E18FC25B06CEB /* PrivacyPermission.swift */,
+				7A76FD67CA4E21102E72097E /* JAMF */,
+				814E9742FEC39066A9552A71 /* Payloads */,
+				2917CF878135AD8C37DB3D1E /* Templates */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5AB0FF92013B1F18D49EF9F9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		60F8ABEB97634F0A855F4F64 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24ADBBC35E5804478FC280E4 /* ProfileDetailView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		62C5BE97F93918588F2D17C5 /* JAMForgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JAMForgeUITests;
+			sourceTree = "<group>";
+		};
+		74D5DF8DA91CAFAC7C3EAF13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7766656CF19EAAAD424C5F29 /* JAMF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JAMF;
+			sourceTree = "<group>";
+		};
+		7A76FD67CA4E21102E72097E /* JAMF */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7D2DAE12D5A4D11DA7E8B /* JAMFModels.swift */,
+			);
+			path = JAMF;
+			sourceTree = "<group>";
+		};
+		7AF3ACF61413060B84822515 /* ProfileBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				826396F1FB262BB07E2D199D /* ProfileBuilderFeature.swift */,
+				5A86946D57C42DFE0EF88514 /* Models */,
+				2E0F147523A3D0A6CD35ABE8 /* Services */,
+				FEB6F562E8087CB00135F829 /* Views */,
+			);
+			path = ProfileBuilder;
+			sourceTree = "<group>";
+		};
+		7E0E8725A6D7AD06D6526125 /* JAMF */ = {
+			isa = PBXGroup;
+			children = (
+				CF55BB4051A5F16CE1DF57CD /* JAMFService.swift */,
+				996B407E6192529848CBC0B9 /* Models */,
+			);
+			path = JAMF;
+			sourceTree = "<group>";
+		};
+		814E9742FEC39066A9552A71 /* Payloads */ = {
+			isa = PBXGroup;
+			children = (
+				0D9D6854A218B8A67EEB63CD /* Payload.swift */,
+			);
+			path = Payloads;
+			sourceTree = "<group>";
+		};
+		82A4CEC20F65FAE2F29F4D14 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				68CC16ECA491E108814A4387 /* SecurityManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		857E886A0DB094DAF81472FA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1F7D98B45C22240F63748121 /* AppDelegate.swift */,
+				FE279AF2767AF1920C51AD6F /* AppState.swift */,
+				A6036C6418FD9BD08ACD079A /* JAMForgeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8AAEF2F158AF88A4FA22ED7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C2E22BCEA5A69EB893FB7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2022DC4421897D80F17B257 /* JAMForge_iOS.app */,
+				8ED5975018C6AC2B9771E612 /* JAMForge_macOS.app */,
+				0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */,
+				F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */,
+				ABAEC6C998169C61EDD42962 /* JAMForgeKitTests_iOS.xctest */,
+				E7744278AC8A45E1FCCD092E /* JAMForgeKitTests_macOS.xctest */,
+				8539C8A358F4230B295625AC /* JAMForgeTests_iOS.xctest */,
+				81D4CA9849214CB57D3DFED9 /* JAMForgeTests_macOS.xctest */,
+				1F21D0573613CEA79930E826 /* JAMForgeUITests_iOS.xctest */,
+				0708927063D5EAE010AC531D /* JAMForgeUITests_macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9182944F4897CDBCEE0DD376 /* JAMF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JAMF;
+			sourceTree = "<group>";
+		};
+		996B407E6192529848CBC0B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A44D257EB3054F2AB98528A5 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		A6DCCDF3961D8922DD5DE1B3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				162889671585B1AEA3BAD205 /* AppAnalysisCard.swift */,
+				0D605EDD72DE231E6DF39E72 /* AppDropZone.swift */,
+				AFDCD12764B790EF22960BE4 /* UtilityViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD2D94CC13952E925AC1A43B /* JAMForge */ = {
+			isa = PBXGroup;
+			children = (
+				857E886A0DB094DAF81472FA /* App */,
+				3B20FD29D416B4642D2EEEA2 /* Core */,
+				D801956D963233CB012ECC08 /* Features */,
+				0122CB94DB4469C99D956BDD /* Resources */,
+				0D7442A22D8CD8C85EE7003B /* UI */,
+			);
+			path = JAMForge;
+			sourceTree = "<group>";
+		};
+		AFCDAD57D19D1035A3AEA5C9 /* JAMForgeKit */ = {
+			isa = PBXGroup;
+			children = (
+				9182944F4897CDBCEE0DD376 /* JAMF */,
+				8AAEF2F158AF88A4FA22ED7D /* Models */,
+				F5DD922D617649B95640E376 /* Utils */,
+			);
+			path = JAMForgeKit;
+			sourceTree = "<group>";
+		};
+		BE7EFCEEF249EECE0B682194 /* PayloadEditors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PayloadEditors;
+			sourceTree = "<group>";
+		};
+		D801956D963233CB012ECC08 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1BD0E3166A1D6D2247BD8175 /* AppManager */,
+				4A17B68CB0C121AF81CF5A1A /* DeviceManager */,
+				7AF3ACF61413060B84822515 /* ProfileBuilder */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DC552484D847F997F6BC7825 /* JAMForgeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JAMForgeKitTests;
+			sourceTree = "<group>";
+		};
+		F5DD922D617649B95640E376 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F7B7C8075E680228266B338B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FEB6F562E8087CB00135F829 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2864D7D6C7D947CBC954EF8 /* DeploymentView.swift */,
+				8F2D31096F211CA509ECF362 /* JAMFConnectionView.swift */,
+				A6DCCDF3961D8922DD5DE1B3 /* Components */,
+				7766656CF19EAAAD424C5F29 /* JAMF */,
+				BE7EFCEEF249EECE0B682194 /* PayloadEditors */,
+				60F8ABEB97634F0A855F4F64 /* Profile */,
+				A44D257EB3054F2AB98528A5 /* Templates */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202D19CBA22AE8052CE8F541 /* JAMForgeKit_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4BE6B9017D9969B58039D0 /* Build configuration list for PBXNativeTarget "JAMForgeKit_macOS" */;
+			buildPhases = (
+				28FD7036246D1D363E3AC751 /* Sources */,
+				577247EAF93C222C3004BD78 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAMForgeKit_macOS;
+			packageProductDependencies = (
+				890EFCE65A1979841E3D8B4B /* XMLCoder */,
+				3AC59B869069922B1566C7F6 /* KeychainAccess */,
+				B6A955AE6CC2C4E2968D5D04 /* swift-crypto */,
+				4EC35A710370DDCF1147A3A7 /* swift-log */,
+			);
+			productName = JAMForgeKit_macOS;
+			productReference = F80BDAAF2232A9E1C93ACCF4 /* JAMForgeKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E223862E11DAB4CD495C41E /* JAMForgeTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B794D8CBCA11AB4BC476A0 /* Build configuration list for PBXNativeTarget "JAMForgeTests_macOS" */;
+			buildPhases = (
+				3F486B676D40F60799DA33BE /* Sources */,
+				24EBD1CF837564BE710D796B /* Frameworks */,
+				C08DB8570F4D55A634292553 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEB400B06CD89029531C61C /* PBXTargetDependency */,
+				8A0A39E52D3BF633DD6171F7 /* PBXTargetDependency */,
+			);
+			name = JAMForgeTests_macOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeTests_macOS;
+			productReference = 81D4CA9849214CB57D3DFED9 /* JAMForgeTests_macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E366B126905E1C776BB7805 /* JAMForge_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B95E0A8DA8B69B13FC9F723 /* Build configuration list for PBXNativeTarget "JAMForge_macOS" */;
+			buildPhases = (
+				58545A4727E51E5B9A3B04FD /* SwiftLint */,
+				9602BCDEFBE78C7BBDEF0612 /* Sources */,
+				19E10CC20F6A6C207E2AFD46 /* Frameworks */,
+				BB9AAE2C8D0AA1D84DD00842 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD61B795C0C5F3F47AF38A2 /* PBXTargetDependency */,
+			);
+			name = JAMForge_macOS;
+			packageProductDependencies = (
+				D4494B881A337CCC5569F205 /* XMLCoder */,
+				8CEEDEBE95E80CFFE91C746A /* KeychainAccess */,
+				F1C365BB796763606C375AAE /* swift-crypto */,
+				5CA0937C83175A4F4F933E4E /* swift-log */,
+			);
+			productName = JAMForge_macOS;
+			productReference = 8ED5975018C6AC2B9771E612 /* JAMForge_macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FFDD6074F13AC21D978F3D /* JAMForge_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCA69713233552D0DE19AA6 /* Build configuration list for PBXNativeTarget "JAMForge_iOS" */;
+			buildPhases = (
+				FD83D26165AD7D63C4DBE4D9 /* SwiftLint */,
+				9E711A2B04AEC2D7815AB597 /* Sources */,
+				275179D775E928ECB20898D5 /* Frameworks */,
+				9C2C5B7C484A53121BB8AF1D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F6A06EE96EC9F1ECC68EEA /* PBXTargetDependency */,
+			);
+			name = JAMForge_iOS;
+			packageProductDependencies = (
+				DA35F143A133582FEAE25BC3 /* XMLCoder */,
+				4BE9910BA0AF0C461A7D0653 /* KeychainAccess */,
+				0615076A693ABA0ADF98F4BC /* swift-crypto */,
+				E97369FD19E9333FDB5660D5 /* swift-log */,
+			);
+			productName = JAMForge_iOS;
+			productReference = F2022DC4421897D80F17B257 /* JAMForge_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4ED6F080AB3596142CFCD9 /* JAMForgeKitTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D129B8368DCDB5685A23DD /* Build configuration list for PBXNativeTarget "JAMForgeKitTests_iOS" */;
+			buildPhases = (
+				5B5162314D58E7687C05AA54 /* Sources */,
+				1F17FB8E718749883C9D99D6 /* Frameworks */,
+				029959CA01D6D3C8DCAD2910 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DA1F3E411C6AFAD8875F01 /* PBXTargetDependency */,
+			);
+			name = JAMForgeKitTests_iOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeKitTests_iOS;
+			productReference = ABAEC6C998169C61EDD42962 /* JAMForgeKitTests_iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FB1CF07B76CD1682468569E /* JAMForgeKit_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966E5714CB658B6BB67F9676 /* Build configuration list for PBXNativeTarget "JAMForgeKit_iOS" */;
+			buildPhases = (
+				2FF1580DF8537F2C41E1B6FA /* Sources */,
+				1D8A8EC271D7D4BC22E084D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAMForgeKit_iOS;
+			packageProductDependencies = (
+				42A57DBFC24C432186674F71 /* XMLCoder */,
+				56129299BAA74BD40804E8ED /* KeychainAccess */,
+				1C2D69CB99CE76489A37C0D6 /* swift-crypto */,
+				5A8C27EB94472F6F65F9351B /* swift-log */,
+			);
+			productName = JAMForgeKit_iOS;
+			productReference = 0070EF28E5CF13741F1A3D71 /* JAMForgeKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB524F123D913BDDB0CCF951 /* JAMForgeUITests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAACA37D088D19656E9539D /* Build configuration list for PBXNativeTarget "JAMForgeUITests_iOS" */;
+			buildPhases = (
+				89F4917F3B4EC0AFE352985B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F3056B3D34AA368B96C907 /* PBXTargetDependency */,
+			);
+			name = JAMForgeUITests_iOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeUITests_iOS;
+			productReference = 1F21D0573613CEA79930E826 /* JAMForgeUITests_iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B9FDAD14EC1B8852B6EEEEA3 /* JAMForgeTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0418566A29DAF45C8F362C9D /* Build configuration list for PBXNativeTarget "JAMForgeTests_iOS" */;
+			buildPhases = (
+				EB4680463F278EEEA7A76929 /* Sources */,
+				7E34BFFB5A9DF54AD3B5A4B4 /* Frameworks */,
+				FD3F3E8E1BE2EE6E3F936DF5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6CE304964671EC72FEF3F4 /* PBXTargetDependency */,
+				8870EFDCF0B22F3A39BD21DC /* PBXTargetDependency */,
+			);
+			name = JAMForgeTests_iOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeTests_iOS;
+			productReference = 8539C8A358F4230B295625AC /* JAMForgeTests_iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C52FF31A4B922379DCB5C76C /* JAMForgeUITests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03580530AAD7976B20BC0A01 /* Build configuration list for PBXNativeTarget "JAMForgeUITests_macOS" */;
+			buildPhases = (
+				28597DBEA45FA03807B9EA32 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD033FD372CA5B08AD76680 /* PBXTargetDependency */,
+			);
+			name = JAMForgeUITests_macOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeUITests_macOS;
+			productReference = 0708927063D5EAE010AC531D /* JAMForgeUITests_macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DBADC3241C82EEB94B5F6E44 /* JAMForgeKitTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCF21A0D83849185A60A230 /* Build configuration list for PBXNativeTarget "JAMForgeKitTests_macOS" */;
+			buildPhases = (
+				204DE0F0B1628EB69CF1B34F /* Sources */,
+				B043617961E8AE9DB4B81F28 /* Frameworks */,
+				17E5A30C19AADE75D979A9DB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6446B05254B37B4EA307D105 /* PBXTargetDependency */,
+			);
+			name = JAMForgeKitTests_macOS;
+			packageProductDependencies = (
+			);
+			productName = JAMForgeKitTests_macOS;
+			productReference = E7744278AC8A45E1FCCD092E /* JAMForgeKitTests_macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7DB764EBC4C04A2455730A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					202D19CBA22AE8052CE8F541 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					6E223862E11DAB4CD495C41E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					6E366B126905E1C776BB7805 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					75FFDD6074F13AC21D978F3D = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					7F4ED6F080AB3596142CFCD9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					8FB1CF07B76CD1682468569E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					AB524F123D913BDDB0CCF951 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75FFDD6074F13AC21D978F3D;
+					};
+					B9FDAD14EC1B8852B6EEEEA3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					C52FF31A4B922379DCB5C76C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E366B126905E1C776BB7805;
+					};
+					DBADC3241C82EEB94B5F6E44 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 47B0A61FDB544AA83DB897C2 /* Build configuration list for PBXProject "JAMForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5957A1EDBAA9E7A4CC19AB0D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */,
+				0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */,
+				079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4ED6F080AB3596142CFCD9 /* JAMForgeKitTests_iOS */,
+				DBADC3241C82EEB94B5F6E44 /* JAMForgeKitTests_macOS */,
+				8FB1CF07B76CD1682468569E /* JAMForgeKit_iOS */,
+				202D19CBA22AE8052CE8F541 /* JAMForgeKit_macOS */,
+				B9FDAD14EC1B8852B6EEEEA3 /* JAMForgeTests_iOS */,
+				6E223862E11DAB4CD495C41E /* JAMForgeTests_macOS */,
+				AB524F123D913BDDB0CCF951 /* JAMForgeUITests_iOS */,
+				C52FF31A4B922379DCB5C76C /* JAMForgeUITests_macOS */,
+				75FFDD6074F13AC21D978F3D /* JAMForge_iOS */,
+				6E366B126905E1C776BB7805 /* JAMForge_macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58545A4727E51E5B9A3B04FD /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+		FD83D26165AD7D63C4DBE4D9 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204DE0F0B1628EB69CF1B34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28597DBEA45FA03807B9EA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD7036246D1D363E3AC751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF1580DF8537F2C41E1B6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F486B676D40F60799DA33BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA64715109905BF1E126CAFB /* JAMForgeProfileCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5162314D58E7687C05AA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F4917F3B4EC0AFE352985B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9602BCDEFBE78C7BBDEF0612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE383BF3AD9D64DA4AA6D1B /* AppAnalysisCard.swift in Sources */,
+				A8A52EC769B479AD4868CB8D /* AppAnalyzer.swift in Sources */,
+				2BC6EFC3EF649949D90E2EB0 /* AppDelegate.swift in Sources */,
+				ACC88856376D47C6993A8189 /* AppDropZone.swift in Sources */,
+				16D2362C20597CB0966A19E8 /* AppState.swift in Sources */,
+				EF687836EB71E98D944A6158 /* AppState.swift in Sources */,
+				E18AEB7960EC89F687E43459 /* ConfigurationProfile+XML.swift in Sources */,
+				5F986585F9E7A0ADBAB7389E /* ConfigurationProfile.swift in Sources */,
+				7E88FB13519D6F89F4DC0E2F /* DeploymentView.swift in Sources */,
+				72F5B97EFF4C0749B42FB74F /* JAMFAPIService.swift in Sources */,
+				F05ED02266DD0DC8E650A0E2 /* JAMFConnectionView.swift in Sources */,
+				CCC4D52B0BC041A689A163C7 /* JAMFModels.swift in Sources */,
+				A707F017F0997211BE879D1D /* JAMFService.swift in Sources */,
+				3ABD44051446048CB8EABF2E /* JAMForgeApp.swift in Sources */,
+				5E1E4C33623BB271FD7E4FB1 /* Payload.swift in Sources */,
+				2FD4C5A02D4BD8E6A0C1A18E /* PrivacyPermission.swift in Sources */,
+				F032A2FAA9182F452E380BAE /* ProfileBuilderFeature.swift in Sources */,
+				AF319103FCF12DB47444C870 /* ProfileDetailView.swift in Sources */,
+				686EE7CF65035AE5DCF2DE3E /* ProfileService.swift in Sources */,
+				B499391DE426A52CDDAB33B1 /* ProfileTemplate.swift in Sources */,
+				2EE9BF6DA6BF79D85D26E9D4 /* SecurityManager.swift in Sources */,
+				636524338D0D612C365F7F4B /* UtilityViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711A2B04AEC2D7815AB597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9CB7A14FB3DD333A78319 /* AppAnalysisCard.swift in Sources */,
+				877F62AEDB66A29D4873E410 /* AppAnalyzer.swift in Sources */,
+				F17CD42FBA99E982788CCF59 /* AppDelegate.swift in Sources */,
+				BDF3057DBA83245AE9C980D0 /* AppDropZone.swift in Sources */,
+				0A444D23540C500CA4568FDF /* AppState.swift in Sources */,
+				47548AE7C5654E385F9B0096 /* AppState.swift in Sources */,
+				B461D5A8172AF94666629137 /* ConfigurationProfile+XML.swift in Sources */,
+				FF26754BDE7EDD6ACF5B6E50 /* ConfigurationProfile.swift in Sources */,
+				015CC98B6857E5D0B46AEFF5 /* DeploymentView.swift in Sources */,
+				981F28F76B10F4D91CE1EB52 /* JAMFAPIService.swift in Sources */,
+				9EF200DE5941774F41D3E9B2 /* JAMFConnectionView.swift in Sources */,
+				039FBFAFAF4A2EC86DBFC8CA /* JAMFModels.swift in Sources */,
+				9E2BE08AFEBA53808A790185 /* JAMFService.swift in Sources */,
+				06F49A57D4D05397F9939AED /* JAMForgeApp.swift in Sources */,
+				BD27FEE573657BF3F0077957 /* Payload.swift in Sources */,
+				9E4D53CF3A37ACBA333D913A /* PrivacyPermission.swift in Sources */,
+				49D065D8675D8CCFF05B1903 /* ProfileBuilderFeature.swift in Sources */,
+				8D4310604C8F3F6F603B6C1C /* ProfileDetailView.swift in Sources */,
+				B776BEB31AFBEC5936F94F82 /* ProfileService.swift in Sources */,
+				14C61463E243F45DB8D7D4E0 /* ProfileTemplate.swift in Sources */,
+				D43DDBA16893EC5113590E75 /* SecurityManager.swift in Sources */,
+				21F2FDEE827E9B00F78CAD37 /* UtilityViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4680463F278EEEA7A76929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE3704BECBDE2765BC1FF6C /* JAMForgeProfileCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEB400B06CD89029531C61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E366B126905E1C776BB7805 /* JAMForge_macOS */;
+			targetProxy = E8BC147C899D118B5FA31D2C /* PBXContainerItemProxy */;
+		};
+		55F6A06EE96EC9F1ECC68EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB1CF07B76CD1682468569E /* JAMForgeKit_iOS */;
+			targetProxy = 2AF76E3F5D3B73E9BD6F0D33 /* PBXContainerItemProxy */;
+		};
+		6446B05254B37B4EA307D105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202D19CBA22AE8052CE8F541 /* JAMForgeKit_macOS */;
+			targetProxy = 84EEC150FFF7BAED1C41DC40 /* PBXContainerItemProxy */;
+		};
+		75F3056B3D34AA368B96C907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FFDD6074F13AC21D978F3D /* JAMForge_iOS */;
+			targetProxy = 1B8709236893A1C581F3D8C2 /* PBXContainerItemProxy */;
+		};
+		8870EFDCF0B22F3A39BD21DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB1CF07B76CD1682468569E /* JAMForgeKit_iOS */;
+			targetProxy = 32947C7BD059C152B497311A /* PBXContainerItemProxy */;
+		};
+		8A0A39E52D3BF633DD6171F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202D19CBA22AE8052CE8F541 /* JAMForgeKit_macOS */;
+			targetProxy = D381058B1183BD6A539B84A9 /* PBXContainerItemProxy */;
+		};
+		92DA1F3E411C6AFAD8875F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB1CF07B76CD1682468569E /* JAMForgeKit_iOS */;
+			targetProxy = 7D6E99F56BA0413DF3C31729 /* PBXContainerItemProxy */;
+		};
+		AAD033FD372CA5B08AD76680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E366B126905E1C776BB7805 /* JAMForge_macOS */;
+			targetProxy = 7EB123BEE0FC97C183FC72A5 /* PBXContainerItemProxy */;
+		};
+		DE6CE304964671EC72FEF3F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FFDD6074F13AC21D978F3D /* JAMForge_iOS */;
+			targetProxy = EFB6D26073E80CACC29EBB0E /* PBXContainerItemProxy */;
+		};
+		FDD61B795C0C5F3F47AF38A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202D19CBA22AE8052CE8F541 /* JAMForgeKit_macOS */;
+			targetProxy = 49E45EEF8AC4468E98A9BDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C7E75699BBED5FC7EED790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeTests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMForge_iOS.app/JAMForge_iOS";
+			};
+			name = Release;
+		};
+		03FB1AC6759C12A1527F3FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeUITests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAMForge_iOS;
+			};
+			name = Release;
+		};
+		1BAD6CC62DEABAE3F2678D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeKitTests-macOS";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21137BC6869645F7C9F88926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JAMForge/Resources/JAMForge.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAMForge/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 JAMForge. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.app;
+				PRODUCT_NAME = JAMForge;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23E0B87D14B86AE89A6B403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		250DFA8A57B96F273C454AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.kit;
+				PRODUCT_NAME = JAMForgeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		34EEE9EBCEED63856C170A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeKitTests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FE8F724810EDA8A136E1B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeTests-macOS";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMForge_macOS.app/Contents/MacOS/JAMForge_macOS";
+			};
+			name = Release;
+		};
+		6A58CD44FEC541CE9DB5619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.kit;
+				PRODUCT_NAME = JAMForgeKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6E151DCDC0896D40BCF5F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JAMForge/Resources/JAMForge.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAMForge/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 JAMForge. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.app;
+				PRODUCT_NAME = JAMForge;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		869938776C0A3B645DD96C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAMForge/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 JAMForge. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.app;
+				PRODUCT_NAME = JAMForge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E3DD023996D89052735E45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		9530E52FECE98FAB24C98DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeUITests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAMForge_iOS;
+			};
+			name = Debug;
+		};
+		9CE5B8211C1AC7A73F115975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeTests-macOS";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMForge_macOS.app/Contents/MacOS/JAMForge_macOS";
+			};
+			name = Debug;
+		};
+		9EC4DCFEA08786C91614385B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.kit;
+				PRODUCT_NAME = JAMForgeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		AE08F05BC43F60E0F6042CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeUITests-macOS";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = JAMForge_macOS;
+			};
+			name = Release;
+		};
+		B5527EE21D29D1CDBA9F6295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeTests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMForge_iOS.app/JAMForge_iOS";
+			};
+			name = Debug;
+		};
+		C032166E4E8D46AECD2E0484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeKitTests-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA5AAD7C75571C956284C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JAMForge/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 JAMForge. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.app;
+				PRODUCT_NAME = JAMForge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC14193A897C30B8E670D170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamforge.kit;
+				PRODUCT_NAME = JAMForgeKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E5CFB3E5BA30FFCD0F708E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeUITests-macOS";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = JAMForge_macOS;
+			};
+			name = Debug;
+		};
+		FED4AD20DD7F9230D8355F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamforge.JAMForgeKitTests-macOS";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03580530AAD7976B20BC0A01 /* Build configuration list for PBXNativeTarget "JAMForgeUITests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5CFB3E5BA30FFCD0F708E87 /* Debug */,
+				AE08F05BC43F60E0F6042CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0418566A29DAF45C8F362C9D /* Build configuration list for PBXNativeTarget "JAMForgeTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5527EE21D29D1CDBA9F6295 /* Debug */,
+				03C7E75699BBED5FC7EED790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2DAACA37D088D19656E9539D /* Build configuration list for PBXNativeTarget "JAMForgeUITests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530E52FECE98FAB24C98DF7 /* Debug */,
+				03FB1AC6759C12A1527F3FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47B0A61FDB544AA83DB897C2 /* Build configuration list for PBXProject "JAMForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3DD023996D89052735E45E /* Debug */,
+				23E0B87D14B86AE89A6B403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4BCF21A0D83849185A60A230 /* Build configuration list for PBXNativeTarget "JAMForgeKitTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED4AD20DD7F9230D8355F81 /* Debug */,
+				1BAD6CC62DEABAE3F2678D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		966E5714CB658B6BB67F9676 /* Build configuration list for PBXNativeTarget "JAMForgeKit_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250DFA8A57B96F273C454AB8 /* Debug */,
+				9EC4DCFEA08786C91614385B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B95E0A8DA8B69B13FC9F723 /* Build configuration list for PBXNativeTarget "JAMForge_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21137BC6869645F7C9F88926 /* Debug */,
+				6E151DCDC0896D40BCF5F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D4BE6B9017D9969B58039D0 /* Build configuration list for PBXNativeTarget "JAMForgeKit_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC14193A897C30B8E670D170 /* Debug */,
+				6A58CD44FEC541CE9DB5619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8B794D8CBCA11AB4BC476A0 /* Build configuration list for PBXNativeTarget "JAMForgeTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE5B8211C1AC7A73F115975 /* Debug */,
+				4FE8F724810EDA8A136E1B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCCA69713233552D0DE19AA6 /* Build configuration list for PBXNativeTarget "JAMForge_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5AAD7C75571C956284C9C5 /* Debug */,
+				869938776C0A3B645DD96C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5D129B8368DCDB5685A23DD /* Build configuration list for PBXNativeTarget "JAMForgeKitTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EEE9EBCEED63856C170A44 /* Debug */,
+				C032166E4E8D46AECD2E0484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.3;
+			};
+		};
+		200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+		4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0615076A693ABA0ADF98F4BC /* swift-crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = "swift-crypto";
+		};
+		1C2D69CB99CE76489A37C0D6 /* swift-crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = "swift-crypto";
+		};
+		3AC59B869069922B1566C7F6 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		42A57DBFC24C432186674F71 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		4BE9910BA0AF0C461A7D0653 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		4EC35A710370DDCF1147A3A7 /* swift-log */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = "swift-log";
+		};
+		56129299BAA74BD40804E8ED /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		5A8C27EB94472F6F65F9351B /* swift-log */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = "swift-log";
+		};
+		5CA0937C83175A4F4F933E4E /* swift-log */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = "swift-log";
+		};
+		890EFCE65A1979841E3D8B4B /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		8CEEDEBE95E80CFFE91C746A /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 200048F81E9BD7C5FDFDDB0A /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		B6A955AE6CC2C4E2968D5D04 /* swift-crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = "swift-crypto";
+		};
+		D4494B881A337CCC5569F205 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		DA35F143A133582FEAE25BC3 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4836EF547823FFB9BFFC88DE /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		E97369FD19E9333FDB5660D5 /* swift-log */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 079B0A030536F4BA89FBA1EC /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = "swift-log";
+		};
+		F1C365BB796763606C375AAE /* swift-crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0312EDDD1D1A0E1DD9B2DE01 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = "swift-crypto";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BF7DB764EBC4C04A2455730A /* Project object */;
+}
