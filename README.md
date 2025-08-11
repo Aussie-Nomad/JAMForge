@@ -5,6 +5,91 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A modern, open-source macOS configuration profile creator with JAMF Pro integration. Built for system administrators and the MacAdmins community to create, manage, and deploy Apple Configuration Profiles efficiently.
+## Applications
+
+### 1. JAMForge Portal (Main App)
+Self-service portal that provides access to all JAMF administration tools in one place.
+
+### 2. Profile Builder
+Create, edit, and deploy Apple Configuration Profiles with JAMF Pro integration.
+
+### 3. Package Manager  
+Deploy and manage software packages across your JAMF Pro environment.
+
+### 4. Compliance Dashboard
+Monitor device compliance status and security posture.
+
+## Getting Started
+
+1. Navigate to `Config/Project-Setup/`
+2. Run `./setup-project.sh` to initialize the development environment
+3. Open the appropriate Xcode project for the tool you want to work on
+
+## Development
+
+Each desktop application is a separate Xcode project that can be developed independently while sharing common frameworks through the `Shared` directory.
+
+The web applications can be developed and deployed separately for users who prefer browser-based tools.
+EOF
+
+# Create .gitignore for the new structure
+cat > JAMForge-Project/.gitignore << 'EOF'
+# Xcode
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+**/DerivedData/
+**/*.xcuserstate
+
+# Swift Package Manager
+.build/
+**/.swiftpm
+
+# Node.js (for web apps)
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Build outputs
+**/build/
+**/dist/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets
+**/*credentials*
+**/*secrets*
+**/*.pem
+**/*.p12
+EOF
+
+echo "✅ Project structure reorganized successfully!"
+echo ""
+echo "📁 New structure created:"
+echo "JAMForge-Project/"
+echo "├── Settings/           # App preferences"
+echo "├── Config/             # Development config"
+echo "├── Webapp/             # Web applications"
+echo "├── Desktop/            # Native macOS/iOS apps"
+echo "│   ├── JAMForge-Portal/    # Main self-service portal"
+echo "│   ├── ProfileBuilder/     # Configuration profiles"
+echo "│   ├── PackageManager/     # Software packages"
+echo "│   └── ComplianceDashboard/ # Compliance monitoring"
+echo "├── Documentation/      # All documentation"
+echo "└── Tests/              # Test suites"
+echo ""
+echo "🚀 Next steps:"
+echo "1. cd JAMForge-Project"
+echo "2. Review the new structure"
+echo "3. Run Config/Project-Setup/setup-project.sh"
 
 ## ✨ Features
 
