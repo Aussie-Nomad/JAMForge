@@ -1,0 +1,237 @@
+name: JAMForge
+options:
+  bundleIdPrefix: com.jamforge
+  deploymentTarget:
+    macOS: 13.0
+    iOS: 16.0
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    DEVELOPMENT_TEAM: # Your team ID here
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_HARDENED_RUNTIME: YES
+
+targets:
+  JAMForge_macOS:
+    type: application
+    platform: macOS
+    sources:
+      - path: JAMForge/App
+      - path: JAMForge/Features
+      - path: JAMForge/Core
+      - path: JAMForge/UI
+      - path: JAMForge/Resources
+    dependencies:
+      - target: JAMForgeKit_macOS
+      - package: XMLCoder
+      - package: KeychainAccess
+      - package: swift-crypto
+      - package: swift-log
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamforge.app
+        PRODUCT_NAME: JAMForge
+        INFOPLIST_FILE: JAMForge/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2025 JAMForge. All rights reserved."
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        CODE_SIGN_ENTITLEMENTS: JAMForge/Resources/JAMForge.entitlements
+        MACOSX_DEPLOYMENT_TARGET: 13.0
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        ENABLE_HARDENED_RUNTIME: YES
+    preBuildScripts:
+      - name: SwiftLint
+        script: |
+          if which swiftlint > /dev/null; then
+            swiftlint
+          else
+            echo "warning: SwiftLint not installed"
+          fi
+
+  JAMForge_iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: JAMForge/App
+      - path: JAMForge/Features
+      - path: JAMForge/Core
+      - path: JAMForge/UI
+      - path: JAMForge/Resources
+    dependencies:
+      - target: JAMForgeKit_iOS
+      - package: XMLCoder
+      - package: KeychainAccess
+      - package: swift-crypto
+      - package: swift-log
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamforge.app
+        PRODUCT_NAME: JAMForge
+        INFOPLIST_FILE: JAMForge/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2025 JAMForge. All rights reserved."
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        IPHONEOS_DEPLOYMENT_TARGET: 16.0
+    preBuildScripts:
+      - name: SwiftLint
+        script: |
+          if which swiftlint > /dev/null; then
+            swiftlint
+          else
+            echo "warning: SwiftLint not installed"
+          fi
+
+  JAMForgeKit_macOS:
+    type: framework
+    platform: macOS
+    sources:
+      - path: JAMForgeKit
+    dependencies:
+      - package: XMLCoder
+      - package: KeychainAccess
+      - package: swift-crypto
+      - package: swift-log
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamforge.kit
+        PRODUCT_NAME: JAMForgeKit
+        GENERATE_INFOPLIST_FILE: YES
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_TESTABILITY: YES
+        MACOSX_DEPLOYMENT_TARGET: 13.0
+
+  JAMForgeKit_iOS:
+    type: framework
+    platform: iOS
+    sources:
+      - path: JAMForgeKit
+    dependencies:
+      - package: XMLCoder
+      - package: KeychainAccess
+      - package: swift-crypto
+      - package: swift-log
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamforge.kit
+        PRODUCT_NAME: JAMForgeKit
+        GENERATE_INFOPLIST_FILE: YES
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_TESTABILITY: YES
+        IPHONEOS_DEPLOYMENT_TARGET: 16.0
+
+  JAMForgeTests_macOS:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests/JAMForgeTests
+    dependencies:
+      - target: JAMForge_macOS
+      - target: JAMForgeKit_macOS
+
+  JAMForgeTests_iOS:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/JAMForgeTests
+    dependencies:
+      - target: JAMForge_iOS
+      - target: JAMForgeKit_iOS
+
+  JAMForgeKitTests_macOS:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests/JAMForgeKitTests
+    dependencies:
+      - target: JAMForgeKit_macOS
+
+  JAMForgeKitTests_iOS:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/JAMForgeKitTests
+    dependencies:
+      - target: JAMForgeKit_iOS
+
+  JAMForgeUITests_macOS:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - path: Tests/JAMForgeUITests
+    dependencies:
+      - target: JAMForge_macOS
+
+  JAMForgeUITests_iOS:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: Tests/JAMForgeUITests
+    dependencies:
+      - target: JAMForge_iOS
+
+packages:
+  XMLCoder:
+    url: https://github.com/CoreOffice/XMLCoder.git
+    from: 0.17.1
+  KeychainAccess:
+    url: https://github.com/kishikawakatsumi/KeychainAccess.git
+    from: 4.2.2
+  swift-crypto:
+    url: https://github.com/apple/swift-crypto.git
+    from: 3.0.0
+  swift-log:
+    url: https://github.com/apple/swift-log.git
+    from: 1.5.3
+
+schemes:
+  JAMForge-macOS:
+    build:
+      targets:
+        JAMForge_macOS: all
+        JAMForgeKit_macOS: all
+    run:
+      config: Debug
+    test:
+      targets:
+        - JAMForgeTests_macOS
+        - JAMForgeKitTests_macOS
+        - JAMForgeUITests_macOS
+      coverage:
+        enable: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
+  JAMForge-iOS:
+    build:
+      targets:
+        JAMForge_iOS: all
+        JAMForgeKit_iOS: all
+    run:
+      config: Debug
+    test:
+      targets:
+        - JAMForgeTests_iOS
+        - JAMForgeKitTests_iOS
+        - JAMForgeUITests_iOS
+      coverage:
+        enable: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
