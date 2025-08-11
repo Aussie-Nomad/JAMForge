@@ -1,0 +1,4 @@
+module JAMForgePackageTests {
+    header "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForgePackageTests.build/JAMForgePackageTests-Swift.h"
+    requires objc
+}

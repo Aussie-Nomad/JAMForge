@@ -1,0 +1,4 @@
+module Logging {
+    header "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/Logging.build/Logging-Swift.h"
+    requires objc
+}

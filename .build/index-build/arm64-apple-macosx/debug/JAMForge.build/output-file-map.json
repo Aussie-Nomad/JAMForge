@@ -1,0 +1,143 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/master.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/App/AppDelegate.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDelegate.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDelegate.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/App/AppState.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/App/JAMForgeApp.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMForgeApp.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMForgeApp.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMForgeApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMForgeApp.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Core/JAMF/JAMFService.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFService.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFService.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFService.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Core/Security/SecurityManager.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/SecurityManager.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/SecurityManager.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/SecurityManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/SecurityManager.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/AppState.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppState.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/ConfigurationProfile+XML.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile+XML.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile+XML.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile+XML~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile+XML.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/ConfigurationProfile.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/JAMF/JAMFModels.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFModels.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFModels.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFModels.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/Payloads/Payload.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/Payload.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/Payload.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/Payload~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/Payload.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/PrivacyPermission.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/PrivacyPermission.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/PrivacyPermission.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/PrivacyPermission~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/PrivacyPermission.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Models/Templates/ProfileTemplate.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileTemplate.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileTemplate.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileTemplate.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/ProfileBuilderFeature.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileBuilderFeature.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileBuilderFeature.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileBuilderFeature~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileBuilderFeature.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Services/AppAnalyzer.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalyzer.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalyzer.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalyzer.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Services/JAMFAPIService.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFAPIService.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFAPIService.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFAPIService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFAPIService.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Services/ProfileService.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileService.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileService.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileService~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileService.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/Components/AppAnalysisCard.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalysisCard.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalysisCard.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalysisCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppAnalysisCard.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/Components/AppDropZone.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDropZone.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDropZone.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDropZone~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/AppDropZone.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/Components/UtilityViews.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/UtilityViews.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/UtilityViews.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/UtilityViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/UtilityViews.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/DeploymentView.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/DeploymentView.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/DeploymentView.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/DeploymentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/DeploymentView.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/JAMFConnectionView.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFConnectionView.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFConnectionView.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFConnectionView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/JAMFConnectionView.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Features/ProfileBuilder/Views/Profile/ProfileDetailView.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileDetailView.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileDetailView.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileDetailView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ProfileDetailView.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/JAMForge/Models/ConfigurationProfile.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/JAMForge.build/ConfigurationProfile.swiftdeps"
+  }
+}

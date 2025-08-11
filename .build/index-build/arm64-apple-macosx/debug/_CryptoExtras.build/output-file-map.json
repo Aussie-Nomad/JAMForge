@@ -1,0 +1,143 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/master.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CBC.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CFB.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CTR.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_GCM_SIV.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/Block Function.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_CFB_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_CTR_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_GCM_SIV_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/ChaCha20CTR/BoringSSL/ChaCha20CTR_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/ChaCha20CTR/ChaCha20CTR.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA+BlindSigning.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA_security.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/BoringSSLHelpers.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/CryptoKitErrors_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/DigestType.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/Error.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/PEMDocument.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/RandomBytes.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/Shared/ArbitraryPrecisionInteger_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ArbitraryPrecisionInteger_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ArbitraryPrecisionInteger_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ArbitraryPrecisionInteger_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/ArbitraryPrecisionInteger_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/Shared/FiniteFieldArithmeticContext_boring.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/FiniteFieldArithmeticContext_boring.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/FiniteFieldArithmeticContext_boring.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/FiniteFieldArithmeticContext_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/FiniteFieldArithmeticContext_boring.swiftdeps"
+  },
+  "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.d",
+    "object": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module XMLCoder {
+    header "/Users/nomad/Desktop/JAMForge-main/.build/index-build/arm64-apple-macosx/debug/XMLCoder.build/XMLCoder-Swift.h"
+    requires objc
+}
