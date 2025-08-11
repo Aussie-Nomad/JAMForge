@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+    
+    - name: Build
+      run: |
+        xcodebuild -project JAMForgeProfileCreator/JAMForgeProfileCreator.xcodeproj \
+                   -scheme JAMForgeProfileCreator \
+                   -destination 'platform=macOS' \
+                   build
+    
+    - name: Test
+      run: |
+        xcodebuild -project JAMForgeProfileCreator/JAMForgeProfileCreator.xcodeproj \
+                   -scheme JAMForgeProfileCreator \
+                   -destination 'platform=macOS' \
+                   test
+    
+    - name: Lint
+      run: |
+        if which swiftlint >/dev/null; then
+          swiftlint
+        else
+          echo "SwiftLint not installed, skipping..."
+        fi
+
+  security-scan:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run security scan
+      run: |
+        # Add security scanning tools here
+        echo "Security scan placeholder"
